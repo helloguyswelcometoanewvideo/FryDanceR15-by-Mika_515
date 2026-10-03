@@ -149,6 +149,8 @@ UserInputService.InputBegan:Connect(function(input, processed)
                 if track3 then track3:Stop() end
             else
                 if track then track:Stop() end
+				if track2 then track2:Stop() end
+                if track3 then track3:Stop() end
             end
         end
 end)
